@@ -51,6 +51,6 @@ ssize_t recv(int sockfd, const void *buf, size_t len, int flags);
 
 // close(): 接続を閉じる　一連の通信処理が終了する
 // fd: ソケットの識別子
-int close(int fd);
+int close(int sockfd);
 
 
